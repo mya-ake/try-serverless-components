@@ -1,0 +1,10 @@
+type: try-serverless-components
+
+components:
+  lambda:
+    type: aws-lambda
+    inputs:
+      memory: 128
+      timeout: 30
+      handler: handler.hello
+      name: 'try-serverless-components-${self.instanceId}'

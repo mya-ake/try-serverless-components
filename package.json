@@ -1,0 +1,16 @@
+{
+  "name": "try-serverless-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mya-ake/try-serverless-components.git",
+  "author": "mya-ake <make.app.ts@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sls": "sls",
+    "components": "components"
+  },
+  "devDependencies": {
+    "serverless": "^1.27.2",
+    "serverless-components": "^0.2.0"
+  }
+}

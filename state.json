@@ -1,0 +1,28 @@
+{
+  "$": {
+    "serviceId": "kcaaahsd7x"
+  },
+  "try-serverless-components": {
+    "instanceId": "kcaaahsd7x-f6s00m0i"
+  },
+  "try-serverless-components:lambda": {
+    "type": "aws-lambda",
+    "state": {}
+  },
+  "try-serverless-components:lambda:defaultRole": {
+    "instanceId": "kcaaahsd7x-n0kv6osc",
+    "type": "aws-iam-role",
+    "internallyManaged": true,
+    "rootPath": "node_modules/serverless-components/registry/aws-iam-role",
+    "inputs": {
+      "name": "try-serverless-components-kcaaahsd7x-f6s00m0i-execution-role",
+      "service": "lambda.amazonaws.com"
+    },
+    "state": {
+      "name": null,
+      "arn": null,
+      "service": null,
+      "policy": null
+    }
+  }
+}
